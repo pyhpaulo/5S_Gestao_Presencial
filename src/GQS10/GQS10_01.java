@@ -125,7 +125,7 @@ public class GQS10_01 {
 
         System.out.print("Quantos veículos deseja cadastrar? ");
         int tamanho = scanner.nextInt();
-        scanner.nextLine(); // Limpar o buffer
+        scanner.nextLine();
         Veiculo[] cadastro = new Veiculo[tamanho];
 
         do {
@@ -154,7 +154,7 @@ public class GQS10_01 {
                         String modelo = scanner.nextLine();
                         System.out.print("Ano: ");
                         int ano = scanner.nextInt();
-                        scanner.nextLine(); // Limpar o buffer
+                        scanner.nextLine();
 
                         cadastro[i] = new Veiculo(numeroChassi, placa, marca, modelo, ano);
                     }
